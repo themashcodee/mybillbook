@@ -1,7 +1,7 @@
 import React from "react"
 import type { NextPage } from "next"
 import { Header, Head } from "components/core"
-import { Hero, Stats } from "components/pages/home"
+import { Hero, Stats, Plans } from "components/pages/home"
 
 const Home: NextPage = () => {
 	return (
@@ -12,6 +12,7 @@ const Home: NextPage = () => {
 				<Header />
 				<Hero />
 				<Stats />
+				<Plans />
 			</main>
 		</>
 	)
