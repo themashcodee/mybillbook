@@ -7,8 +7,6 @@ import { mergeClasses } from "helpers"
 type P = ComponentPropsWithoutRef<"div">
 
 export const Logo: C<P> = ({ className = "" }) => {
-	console.log(logo)
-
 	return (
 		<div
 			className={mergeClasses({
